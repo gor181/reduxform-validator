@@ -5,9 +5,13 @@
 
 # reduxform-validator
 
-Exposes methods `validate` and `validateMany` for validating your redux-form payloads. One would use it to get rid of the boilerplate when writing form field validations.
+Exposes methods `validate` and `validateMany` for validating your redux-form payloads. One would use it to get rid of the boilerplate when writing form field validations.  
 
-Open for PR's and contributions!
+__We also made a video tutorials if you are interested on how this library was inspired:__
+
+[Developing validate function](https://www.youtube.com/watch?v=agI0HYYGynY)  
+[Developing validateMany function](https://www.youtube.com/watch?v=MKpGhs5zxB4)
+
 
 ## Installation via NPM / Yarn
 
