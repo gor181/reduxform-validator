@@ -1,6 +1,6 @@
 {
   "name": "reduxform-validator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "reduxform-validator",
   "main": "lib/validator.js",
   "author": "Goran Udosic",
