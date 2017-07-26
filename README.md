@@ -33,8 +33,8 @@ import * as v from 'reduxform-validator';
 const hasValue = val => val && val.length > 0;
 
 const validate = values => ({
-	name: v.validate(hasValue, values.name, 'enter your name'),
-	surname: v.validate(hasValue, values.surname, 'enter your surname'),
+  name: v.validate(hasValue, values.name, 'enter your name'),
+  surname: v.validate(hasValue, values.surname, 'enter your surname'),
 });
 ```
 
@@ -44,11 +44,20 @@ const validate = values => ({
 import * as v from 'reduxform-validator';
 
 const validate = values => ({
-	age: v.validateMany([
-		{ predicate: v => !!v, error: 'Please set your age' },
-		{ predicate: v => !isNaN(Number(values.age)), error: 'Age must be a number!' },
-		{ predicate: v => v >= 18, error: 'You must be at least 18 years old' },
-	], values.age),
+  age: v.validateMany([
+    {
+      predicate: v => !!v,
+      error: 'Please set your age',
+    },
+    {
+      predicate: v => !isNaN(Number(values.age)),
+      error: 'Age must be a number!',
+    },
+    {
+      predicate: v => v >= 18,
+      error: 'You must be at least 18 years old',
+    },
+  ], values.age),
 });
 ```
 
