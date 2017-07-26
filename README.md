@@ -9,9 +9,9 @@ Exposes methods `validate` and `validateMany` for validating your redux-form pay
 
 __We also made a video tutorials if you are interested on how this library was inspired:__
 
-[Developing validate function](https://www.youtube.com/watch?v=agI0HYYGynY)  
-[Developing validateMany function](https://www.youtube.com/watch?v=MKpGhs5zxB4)
+[![Developing validate function](https://img.youtube.com/vi/agI0HYYGynY/0.jpg)](https://www.youtube.com/watch?v=agI0HYYGynY "Developing validate function")
 
+[![Developing validateMany function](https://img.youtube.com/vi/MKpGhs5zxB4/0.jpg)](https://www.youtube.com/watch?v=MKpGhs5zxB4 "Developing validateMany function")
 
 ## Installation via NPM / Yarn
 
