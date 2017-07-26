@@ -1,0 +1,29 @@
+{
+  "name": "reduxform-validator",
+  "version": "0.0.0",
+  "description": "reduxform-validator",
+  "main": "dist/reduxform-validator.min.js",
+  "homepage": "https://github.com/gor181/reduxform-validator",
+  "authors": [
+    "Goran Udosic"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "package.json",
+    "src",
+    "node_modules",
+    "example",
+    "test"
+  ]
+}

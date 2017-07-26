@@ -1,0 +1,40 @@
+{
+  "name": "reduxform-validator",
+  "version": "1.0.0",
+  "description": "reduxform-validator",
+  "main": "lib/validator.js",
+  "author": "Goran Udosic",
+  "homepage": "https://github.com/gor181/reduxform-validator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gor181/reduxform-validator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gor181/reduxform-validator/issues"
+  },
+  "devDependencies": {
+    "babel-jest": "^20.0.3",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "gulp": "^3.9.0",
+    "jest": "^20.0.4",
+    "react-component-gulp-tasks": "git+https://github.com/gor181/react-component-gulp-tasks.git",
+    "regenerator-runtime": "^0.10.5"
+  },
+  "scripts": {
+    "build": "gulp clean && NODE_ENV=production gulp build",
+    "lint": "eslint ./; true",
+    "release": "NODE_ENV=production gulp release",
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
+  },
+  "keywords": [
+    "redux-form-validator",
+    "redux-form-validation"
+  ],
+  "browserify-shim": {}
+}
