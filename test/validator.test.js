@@ -1,4 +1,4 @@
-import { validate, validateMany } from './validator';
+import { validate, validateMany } from '../src/validator';
 
 const noop = () => {};
 
